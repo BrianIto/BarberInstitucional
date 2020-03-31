@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.e8dbdfee.chunk.css",
-    "main.js": "/static/js/main.cec32f98.chunk.js",
-    "main.js.map": "/static/js/main.cec32f98.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c505c67e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c505c67e.js.map",
-    "static/js/2.20cdfeee.chunk.js": "/static/js/2.20cdfeee.chunk.js",
-    "static/js/2.20cdfeee.chunk.js.map": "/static/js/2.20cdfeee.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.22797fb398eb8c8b5e7a8eec21ef01a7.js": "/precache-manifest.22797fb398eb8c8b5e7a8eec21ef01a7.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.e8dbdfee.chunk.css.map": "/static/css/main.e8dbdfee.chunk.css.map",
-    "static/js/2.20cdfeee.chunk.js.LICENSE.txt": "/static/js/2.20cdfeee.chunk.js.LICENSE.txt",
-    "static/media/background.png": "/static/media/background.eafb0a3a.png",
-    "static/media/barbeador.png": "/static/media/barbeador.4572c803.png",
-    "static/media/curl_right.svg": "/static/media/curl_right.c7e822db.svg",
-    "static/media/historia.png": "/static/media/historia.404c4e19.png",
-    "static/media/logo.svg": "/static/media/logo.1e86ab06.svg",
-    "static/media/mapa.png": "/static/media/mapa.c5ca103c.png"
+    "main.css": "/BarberInstitucional/static/css/main.e8dbdfee.chunk.css",
+    "main.js": "/BarberInstitucional/static/js/main.101a9199.chunk.js",
+    "main.js.map": "/BarberInstitucional/static/js/main.101a9199.chunk.js.map",
+    "runtime-main.js": "/BarberInstitucional/static/js/runtime-main.ae6a7fd6.js",
+    "runtime-main.js.map": "/BarberInstitucional/static/js/runtime-main.ae6a7fd6.js.map",
+    "static/js/2.20cdfeee.chunk.js": "/BarberInstitucional/static/js/2.20cdfeee.chunk.js",
+    "static/js/2.20cdfeee.chunk.js.map": "/BarberInstitucional/static/js/2.20cdfeee.chunk.js.map",
+    "index.html": "/BarberInstitucional/index.html",
+    "precache-manifest.aea21839a08913d11b7754e4d5d8093b.js": "/BarberInstitucional/precache-manifest.aea21839a08913d11b7754e4d5d8093b.js",
+    "service-worker.js": "/BarberInstitucional/service-worker.js",
+    "static/css/main.e8dbdfee.chunk.css.map": "/BarberInstitucional/static/css/main.e8dbdfee.chunk.css.map",
+    "static/js/2.20cdfeee.chunk.js.LICENSE.txt": "/BarberInstitucional/static/js/2.20cdfeee.chunk.js.LICENSE.txt",
+    "static/media/background.png": "/BarberInstitucional/static/media/background.eafb0a3a.png",
+    "static/media/barbeador.png": "/BarberInstitucional/static/media/barbeador.4572c803.png",
+    "static/media/curl_right.svg": "/BarberInstitucional/static/media/curl_right.c7e822db.svg",
+    "static/media/historia.png": "/BarberInstitucional/static/media/historia.404c4e19.png",
+    "static/media/logo.svg": "/BarberInstitucional/static/media/logo.1e86ab06.svg",
+    "static/media/mapa.png": "/BarberInstitucional/static/media/mapa.c5ca103c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c505c67e.js",
+    "static/js/runtime-main.ae6a7fd6.js",
     "static/js/2.20cdfeee.chunk.js",
     "static/css/main.e8dbdfee.chunk.css",
-    "static/js/main.cec32f98.chunk.js"
+    "static/js/main.101a9199.chunk.js"
   ]
 }
