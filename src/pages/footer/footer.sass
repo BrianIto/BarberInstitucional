@@ -1,0 +1,32 @@
+html
+  scroll-behavior: smooth
+
+.footer_container
+  position: absolute
+  top: 500%
+  left: 0
+  background-color: #131313
+  width: 100%
+  height: 50%
+  .divider
+    position: absolute
+    height: 100%
+    display: flex
+    div
+      margin: auto 5%
+      color: #FFF
+      font-family: "Goudy Old Style"
+      font-size: 1.3em
+
+@media (max-width: 640px)
+  .footer_container
+    text-align: center
+    .divider
+      flex-direction: column
+      img
+        width: 250px
+      div
+        font-size: .9em
+        margin: 3% 10%
+        &:first-child
+          margin-top: 10%

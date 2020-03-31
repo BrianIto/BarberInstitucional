@@ -1,0 +1,39 @@
+.equipe_container
+  position: absolute
+  top: 400%
+  left: 0
+  width: 100%
+  height: 100%
+  .content
+    margin-top: 15%
+    h1
+      color: #A16A38
+      font-family: 'S&S Hilborn Four'
+      font-size: 4.5em
+  .divider
+    display: flex
+    color: #FFF
+    img
+      width: 350px
+      padding-right: 0%
+    div
+      flex-grow: 1
+      &:first-child
+        margin-left: 5%
+      &:last-child
+        margin-left: 10%
+        margin-right: 10%
+
+@media (max-width: 640px)
+  .equipe_container
+    .content
+      text-align: center
+      h1
+        font-size: 2em
+      .divider
+        flex-direction: column
+        img
+          margin-top: 10%
+          width: 125px
+        .text
+          margin: 0 5%

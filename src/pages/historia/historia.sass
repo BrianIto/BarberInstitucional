@@ -1,0 +1,59 @@
+.historia_container
+  position: absolute
+  top: 100%
+  left: 0
+  width: 100%
+  height: 100%
+  .content
+    margin-top: 12.5%
+  .divider
+    display: flex
+    .foto
+      margin-left: -60%
+    .text
+      color: #FFF
+      font-family: 'Goudy Old Style'
+      font-size: 1.5em
+      margin-left: 5%
+      margin-right: 7.5%
+.title
+  font-size: 5em
+  color: #A16A38
+  margin-left: 5%
+  letter-spacing: 5px
+  margin-bottom: 0
+  font-family: 'S&S Hilborn Four'
+.subtitle
+  font-size: 2em
+  color: #719274
+  margin-left: 5%
+  letter-spacing: 1px
+  margin-bottom: 0
+  font-family: 'S&S Hilborn Four'
+[from-right]
+
+[data-scroll]
+  transition: all 2s
+[data-scroll="in"]
+    opacity: 1
+    transform: translateX(0px)
+[data-scroll="out"]
+    opacity: 0
+    transform: translateX(-75px)
+
+@media (max-width: 640px)
+  .historia_container
+    width: 100%
+    display: flex
+    text-align: center
+    .content
+      margin: auto
+    .divider
+      .foto
+        display: none
+      h1
+        font-size: 2.5em
+      h2
+        font-size: 1.2em
+      .text
+        font-size: 1.3em

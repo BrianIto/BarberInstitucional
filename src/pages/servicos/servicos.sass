@@ -1,0 +1,77 @@
+.servicos_container
+  position: absolute
+  top: 200%
+  left: 7.5%
+  width: 85%
+  height: 80%
+  color: #FFF
+  padding-top: 10%
+  button
+      align-self: center
+      width: 30%
+      padding: 1.5% 0
+      letter-spacing: 5px
+      font-size: 20px
+      border: none
+      margin-top: 3%
+      border-radius: 500px
+      font-family: 'S&S Hilborn Four'
+      cursor: pointer
+      box-shadow: 0 7px 10px rgba(0,0,0,0.5)
+      margin-left: 37.5%
+      color: #A16A38
+  h1
+    color: #A16A38
+    font-size: 4em
+    font-family: 'S&S Hilborn Four'
+  .divider
+    display: flex
+    div
+      flex-grow: 1
+      text-align: center
+      &:first-child
+        margin-right: 2%
+      &:nth-child(2)
+        margin-left: 2%
+      h2
+        font-size: 3em
+        margin: 0
+        font-family: 'S&S Hilborn Four'
+      h3
+        margin-top: 2%
+        font-family: 'S&S Hilborn Four'
+        font-size: 1.8em
+        color: #719274
+        font-weight: 400
+      table
+        width: 100%
+        font-family: 'Goudy Old Style'
+        font-size: 1.6em
+        tr
+          td
+            padding-bottom: 2.5%
+            &:first-child
+              text-align: left
+            &:last-child
+              text-align: right
+
+@media (max-width: 640px)
+  .servicos_container
+    text-align: center
+    h1
+      font-size: 2.5em
+    .divider
+      flex-direction: column
+      div
+        h2
+          font-size: 2em
+        h3
+          font-size: 1.5em
+        table
+          tr
+            td
+              font-size: .9em
+    button
+      margin: 10% 0
+      width: 90%
+      padding: 5% 0
